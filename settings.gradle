@@ -1,0 +1,72 @@
+//include ':app'
+
+// start aar
+
+include ':libsCenter', ':biz-libs'
+
+//end aar
+
+// start other libs
+
+include ':otherlibs',
+        ':otherlibs:jiaozivideoplayer',
+        ':otherlibs:imagepicker',
+        ':otherlibs:libraryglide37sinayulan',
+        ':otherlibs:libgreendao',
+        ':otherlibs:slbappshare',
+        ':otherlibs:slbappstatistics',
+        ':otherlibs:slbappumengstatistics',
+        ':otherlibs:slbappjpush',
+        ':otherlibs:slbapppay'
+
+//end other libs
+
+// start commonlibs
+
+include ':baselibrary'
+
+include ':commonlibs',
+        ':commonlibs:libglin',
+        ':commonlibs:libglide37',
+        ':commonlibs:libglide47',
+        ':commonlibs:libutils',
+        ':commonlibs:libretrofit',
+        ':commonlibs:libvariants',
+        ':commonlibs:libwebview',
+        ':commonlibs:librararyforfileprovdider',
+        ':commonlibs:libupdateapputils',
+        ':commonlibs:libmvp'
+
+// end commonlibs
+
+// start bi3
+
+include ':biz3',
+        ':biz3:biz3-slbapp-demo1'
+
+// end biz3
+
+//slbappone start
+
+// include ':sailubanone',
+//         ':sailubanone:slbapp',
+//         ':sailubanone:slbappcomm',
+//         ':sailubanone:slbappindex',
+//         ':sailubanone:slbappsplash',
+//         ':sailubanone:slbapplogin',
+//         ':sailubanone:slbappreadbook',
+//         ':sailubanone:slbappxmly',
+//         ':sailubanone:slbappusercenter',
+//         ':sailubanone:slbapplistenbook'
+
+//slbappone end
+
+//slbapptwo start
+
+//include ':sailubantwo',
+//        ':sailubantwo:app',
+//        ':sailubantwo:base',
+//        ':sailubantwo:ClassRoomSdk',
+//        ':sailubantwo:eduhdsdk'
+
+//slbapptwo end

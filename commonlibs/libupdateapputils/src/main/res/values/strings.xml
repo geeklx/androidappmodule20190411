@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Library</string>
+    <string name="cancel">取消</string>
+    <string name="sure">确认</string>
+
+    <string name="app_xbbyzbh">新版本已准备好</string>
+    <string name="app_shaz">稍后安装</string>
+    <string name="app_lkaz">立刻升级</string>
+    <string name="app_part3_tips1">帮助小朋友学会阅读，倾听，理解，想象，述说，运用</string>
+
+</resources>
